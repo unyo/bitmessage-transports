@@ -37,6 +37,7 @@
   "homepage": "https://github.com/bitchan/bitmessage-transports",
   "devDependencies": {
     "chai": "*",
+    "chrome-net": "^2.4.3",
     "jshint": "*",
     "karma": "^0.12.31",
     "karma-browserify": "^3.0.3",
@@ -50,6 +51,7 @@
   "dependencies": {
     "bitmessage": ">=0.6.0 <2",
     "buffer-equal": "~0.0.1",
+    "chrome-net": "^2.4.3",
     "es6-promise": "^2.0.1",
     "inherits": "^2.0.1",
     "object-assign": "^2.0.0",
