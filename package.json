@@ -3,10 +3,6 @@
   "version": "0.1.4",
   "description": "bitmessage transports",
   "main": "./lib/index.js",
-  "browser": {
-    "./lib/tcp.js": "./lib/tcp.browser.js",
-    "./lib/ws.js": "./lib/ws.browser.js"
-  },
   "scripts": {
     "test": "mocha tests/index.js && xvfb-run -a karma start --browsers Chromium && xvfb-run -a karma start --browsers Firefox && jshint .",
     "m": "mocha tests/index.js",
